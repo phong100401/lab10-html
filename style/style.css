@@ -1,0 +1,92 @@
+body{
+    font-family: Georgia, Times, serif;
+    font-size: 12px;
+    /*background-image: url("../images/dark-wood.jpg");*/
+}
+#main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    width: 1000px;
+    background-color: gray;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+#head-link{
+    width: 1000px;
+    height: 35px;
+    line-height: 30px;
+    padding-left: 10;
+    padding-right: 10;
+    border: 1px solid #CDCDCD;
+    background-color: gray;
+    margin-bottom: 5px;
+    clear: both;
+}
+#content{
+    width: 700px;
+    height: 500px;
+    border: 1px solid white;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-right-color: lightgray;
+}
+#right{
+    width: 285px;
+    height: 500px;
+    border: 1px solid white;
+    float: right;
+    background-color: none;
+    margin-bottom: 5px;
+}
+#footer{
+    width: 1000px;
+    height: 25px;
+    clear: both;
+    border: 1px solid #CDCDCD;
+    background-color: lightgray;
+    color: white;
+}
+#head-link ul li{
+    color: white;
+    list-style: none;
+    float: left;
+    margin: 0px;
+    line-height: 10px;
+    padding: 0px 25px 0px 25px;
+    display: inline;
+    font-size: 120%;
+}
+.jay{
+    padding: 0px;
+    list-style: none;
+    font-size: 180%;
+    color: red;
+}
+#head-link li:hover{
+    color: black;
+}
+td.ab,td.abc{
+    color: red;
+}
+
+td.abc,td{
+    height: 40px;
+}
+
+td.abc {
+    font-size: 150%;
+    text-align: left;
+}
+
+td.ab{
+    border: 1px solid white;
+    border-bottom-color: lightgray;
+}
+td.ab:hover{
+    background-color: lightgray;
+}
